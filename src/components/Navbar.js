@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar' style={{position: "sticky"}}>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link to='/' className='navbar-lg' onClick={closeMobileMenu}>
           HYCÁR
           <i class='fab fa-typo3' />
         </Link>
@@ -74,11 +74,11 @@ function Navbar() {
 
             <li className='nav-item'>
               <Link
-                to='/sign-up'
+                to='/sign-in'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Sign In
               </Link>
             </li>
 

@@ -17,7 +17,7 @@
   max-width: 1500px;
 }
 
-.navbar-logo {
+.navbar-lg {
   color: white;
   justify-self: start;
   margin-left: 20px;
@@ -26,10 +26,10 @@
   font-size: 1.5rem;
   font-weight: 800;
   display: flex;
-  align-items: center;
+  margin-top: -1rem;
 }
 
-.navbar-logo:hover 
+.navbar-lg:hover 
 {
   color: white;
 }
@@ -131,7 +131,7 @@
     border-radius: 0;
   }
 
-  .navbar-logo {
+  .navbar-lg {
     position: absolute;
     top: 0;
     left: 0;

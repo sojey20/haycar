@@ -65,7 +65,7 @@ class MoreDetails extends React.Component {
                     <h2>{item.title}</h2>
                     <span>${item.price}</span>
                   </div>
-                  {/* <Colors colors={item.colors} /> */}
+                  <Colors colors={item.colors} />
 
                   <p>{item.model}</p>
                   <p>{item.transmission}</p>
